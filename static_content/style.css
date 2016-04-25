@@ -1,0 +1,15 @@
+.content {
+    background: orange;
+    margin: 50px auto;
+    padding: 20px;
+    width: 600px;
+    height: 400px;
+}
+
+.head {
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}

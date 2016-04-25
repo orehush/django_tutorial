@@ -1,0 +1,26 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+</head>
+<body>
+
+<header>
+    <div class="head">
+        <h1>It`s some app on Python/Django</h1>
+    </div>
+</header>
+<div class="content">
+    {% block content %}{% endblock %}
+</div>
+<footer>
+    <div class="info">
+        Here is some info like as common info in any footers.
+    </div>
+</footer>
+</body>
+</html>
